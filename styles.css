@@ -1,0 +1,9 @@
+:root { --fg:#111; --muted:#555; --bg:#fff; --card:#f7f7f8; --accent:#0a66c2; }
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+header{padding:24px 16px;background:var(--card);border-bottom:1px solid #e5e7eb}
+.container{max-width:900px;margin:0 auto;padding:24px 16px}
+h1{margin-top:0}
+a{color:var(--accent)}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px}
+code, pre{background:#f4f4f5;border-radius:8px;padding:2px 6px}
